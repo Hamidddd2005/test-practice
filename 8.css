@@ -199,3 +199,95 @@ body {
   padding-bottom: 7px;
   color: white;
 }
+/* ===== پایه ===== */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.top-img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* ===== ریسپانسیو ===== */
+
+/* موبایل (تا 600px) */
+@media (max-width: 600px) {
+  .header-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .title1,
+  .title2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .section,
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7,
+  .box8 {
+    width: 90%;
+    margin: 10px 0;
+  }
+}
+
+/* تبلت (600px تا 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7,
+  .box8 {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .section,
+  .section2 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+/* دسکتاپ بزرگ (بالای 900px) */
+@media (min-width: 901px) {
+  .section,
+  .section2 {
+    flex-wrap: wrap;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6,
+  .box7,
+  .box8 {
+    width: 22%;
+    margin: 15px;
+  }
+}
