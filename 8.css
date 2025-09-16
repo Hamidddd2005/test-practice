@@ -10,7 +10,7 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  background-color: black;
+  background-color: #141213;
 }
 .header {
   width: 100%;
@@ -24,9 +24,8 @@ body {
   font-weight: 600;
 }
 .top-img {
-  width: 100%;
+  width: 70%;
   height: 700px;
-  background-color: aqua;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -34,4 +33,89 @@ body {
 .top-img img {
   width: 100%;
   height: 100%;
+}
+.container {
+  width: 90%;
+  display: flex;
+
+  color: rgb(255, 145, 0);
+  direction: rtl;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+}
+.title1 {
+  font-size: 40px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 25%;
+}
+.desc {
+}
+.box1 {
+  width: 22%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box2 {
+  width: 22%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box3 {
+  width: 22%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box4 {
+  width: 22%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.box1 img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+.box2 img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+.box3 img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+.box4 img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: -5px;
+  cursor: pointer;
+}
+.desc {
+  line-height: 27px;
+  font-size: 17px;
+  background-color: #353535;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 10px;
+  border: 1px solid white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: white;
 }
