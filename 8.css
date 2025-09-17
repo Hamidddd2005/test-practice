@@ -291,3 +291,13 @@ img {
     margin: 15px;
   }
 }
+hr {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  color: #6d6d6d;
+  text-align: center;
+  font-size: 20px;
+}
